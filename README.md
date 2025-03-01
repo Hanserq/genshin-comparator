@@ -1,23 +1,47 @@
-Genshin Comparator
-A platform to compare Genshin Impact characters one-on-one based on stats, builds, and scaling.
+# Genshin Comparator  
+A platform to compare Genshin Impact characters one-on-one based on stats, builds, and scaling.  
 
-Features (Phase 1)
+## Features (Phase 1)  
+✅ **Character stat comparison**  
+✅ **Elemental-themed UI** (Natlan & Inazuma style)  
+✅ **Login for comparisons** (Google & Email/Password)  
+✅ **Animated transitions & elemental effects**  
+✅ **User profile with saved comparisons**  
 
-✅ Character stat comparison
-✅ Elemental-themed UI (Natlan & Inazuma style)
-✅ Login for comparisons (Google & Email/Password)
-✅ Animated transitions & elemental effects
-✅ User profile with saved comparisons
+## Tech Stack  
+### Frontend:  
+- React (Next.js)  
+- TailwindCSS  
 
-Tech Stack
+### Backend:  
+- FastAPI / Node.js (Express)  
+- PostgreSQL / MongoDB  
 
-Frontend: React (Next.js) + TailwindCSS
-Backend: FastAPI / Node.js (Express)
-Database: PostgreSQL / MongoDB
-APIs: Enka.Network / Manual data entry
-Project Roadmap
+### APIs:  
+- Enka.Network / Manual data entry  
 
-Backend Setup: Database, APIs for character data, authentication
-Frontend UI Design: Dark mode, elemental animations, layout
-Comparison Logic: Damage scaling, stat differences
-User Features: Saved comparisons, build testing (future update)
+## Project Roadmap  
+1. **Backend Setup**  
+   - Database setup  
+   - API development for character data and authentication  
+
+2. **Frontend UI Design**  
+   - Dark mode support  
+   - Elemental animations  
+   - Responsive layout  
+
+3. **Comparison Logic**  
+   - Damage scaling  
+   - Stat differences  
+
+4. **User Features**  
+   - Saved comparisons  
+   - Build testing (future update)  
+
+---
+
+### 🚀 How to Contribute  
+1. **Fork the repository**  
+2. **Clone your fork**  
+   ```sh
+   git clone https://github.com/your-username/genshin-comparator.git
